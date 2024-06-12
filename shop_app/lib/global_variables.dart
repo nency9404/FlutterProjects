@@ -32,14 +32,3 @@ final products = [
     'sizes': [5, 6, 7, 8],
   },
 ];
-
-final cart = [
-  {
-    'id': 3,
-    'title': 'Women\'s Jordan Shoes',
-    'price': 50.33,
-    'imageUrl': 'assets/images/4.png',
-    'company': 'Nike',
-    'size': 7,
-  }
-];

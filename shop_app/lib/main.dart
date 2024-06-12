@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 //import 'package:shop_app/global_variables.dart';
 import 'package:shop_app/home_page.dart';
 import 'package:provider/provider.dart';
+import 'cart_provider.dart';
 //import 'package:shop_app/product_details_page.dart';
 
 void main() {
@@ -18,16 +19,21 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Provider(
+    return ChangeNotifierProvider(
       //provider is trying to find the nearest widget from widgetTree.
-      create: (context) => 'Hello',
+      create: (context) => CartProvider(),
+      //when we have multiple providers
+      /*return MultiProvider(
+      providers:[
+      ChangeNotifierProvider(create: (context) => CartProvider()),
+      ],*/
       child: MaterialApp(
         title: 'Shopping App',
         theme: ThemeData(
           fontFamily: 'Lato',
           colorScheme: ColorScheme.fromSeed(
             seedColor: const Color.fromARGB(255, 127, 187, 228),
-            primary: Color.fromARGB(255, 243, 140, 80),
+            primary: const Color.fromARGB(255, 243, 140, 80),
           ),
           appBarTheme: const AppBarTheme(
             titleTextStyle: TextStyle(
