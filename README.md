@@ -8,4 +8,4 @@ The Shopping App is developed using Flutter for the frontend, providing a native
 
 - Add desired shoes to the shopping cart for convenient checkout
 
-- Efficiently search for specific for specific shoe styles and brands 
+- Efficiently search for specific shoe styles and brands 
