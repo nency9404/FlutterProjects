@@ -1,16 +1,11 @@
-# shop_app
+# Shopping App
 
-A new Flutter project.
+The Shopping App is developed using Flutter for the frontend, providing a native-like experience on both Android and iOS platforms. This app is designed for shoe enthusiasts and fashion-conscious individuals to browse, discover, and purchase a wide variety of shoes.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Search varies type of shoes inluding their detailed description, image, price and sizes
 
-A few resources to get you started if this is your first Flutter project:
+- Add desired shoes to the shopping cart for convenient checkout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Efficiently search for specific shoe styles and brands 
